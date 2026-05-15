@@ -60,7 +60,7 @@ nav ul li a {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #ee6c4d;
+    background-color: #4d5dee;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -68,7 +68,7 @@ nav ul li a {
 }
 
 .hero-button:hover {
-    background-color: #d64b2a;
+    background-color: #2a30d6;
 }
 
 footer {
@@ -197,7 +197,7 @@ footer {
 
 /* Responsive Design Adjustments */
 @media screen and (max-width: 768px) {
-    #services, #about, #contact {
+    #index, #register, #services, #about, #contact {
         text-align: center;
     }
 
@@ -267,3 +267,21 @@ body{
 contact-h1, contact-h2, contact-h3 {
   font-family: 'Arial', sans-serif;
 }
+
+.custom-btn {
+    background-color: grey;
+    color: lightblue;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.hero-content {
+    animation: fadeIn 1s ease-in;
+}
+
